@@ -6,8 +6,8 @@ A PyTorch implementation for object detection based on the DETR architecture.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/wenkaizhao/Position-detr.git
-cd Position-detr
+git clone https://github.com/wenkaizhao/Position-DETR.git
+cd Position-DETR
 ```
 
 ### 2. Install Dependencies
