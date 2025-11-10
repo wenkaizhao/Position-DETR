@@ -19,6 +19,19 @@ conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit
 pip install -r requirements.txt
 ```
 
+## ⚙️ Configuration
+
+Edit `configs/train_config.py` before training to set:
+
+```python
+# Example configuration
+coco_path = "/path/to/your/coco/"
+num_epochs = 12
+batch_size = 2
+learning_rate = 1e-4
+model_path = "configs/position_detr/position_detr_resnet50.py"
+```
+
 ## 🚀 Run
 
 ### Training
